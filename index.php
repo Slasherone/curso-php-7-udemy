@@ -18,3 +18,19 @@ $usuario = new Usuario();
 //Carrega um usuário usando login e senha
 //$usuario->login('teste', 'testando');
 //echo $usuario;
+
+//Criando um novo usuário
+//$usuario = new Usuario('UmUsuarioDeTesteQualquer', 'UmaSenhaDeTesteQualquer');
+//$usuario->insert();
+//echo $usuario;
+
+//Carregando e atualizando as informações de um usuário
+//$usuario = new Usuario();
+//$usuario->loadById(8);
+//$usuario->update('Ronaldinho PEDREIRO', 'minha MARRETAAAAA');
+
+//Deletando um usuário
+//$usuario = new Usuario();
+//$usuario->loadById(13);
+//$usuario->delete();
+//echo $usuario;
